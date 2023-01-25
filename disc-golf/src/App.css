@@ -1,0 +1,83 @@
+* {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* button, button with "-" and "+" */
+Button {
+  background-color: transparent;
+  border: none;
+}
+
+#dec:hover {
+  border-radius: 50%;
+  background-color: #F47174;
+  transition: background-color .4s ease-in-out;
+}
+
+#inc:hover {
+  border-radius: 50%;
+  background-color: #5E96C3;
+  transition: background-color .4s ease-in-out;
+}
+
+/* display center */
+#center {
+  max-height: 100vh;
+  text-align: center;
+  padding: 15%
+}
+
+/* display align right */
+#display {
+  max-height: 100vh;
+  float: right;
+  padding: 5% 17%;
+  text-align: center;
+}
+
+/* input tag */
+input {
+  padding:10px;
+  border: none;
+}
+
+/* sign up on page */
+#signup {
+  padding-top: 35%;
+}
+
+/* navbar */
+#navbar {
+  overflow: hidden;
+  background-color: rgb(194, 194, 194);
+  text-align: center;
+  top: 10;
+  width: 100%;
+  padding-top: 15px;
+}
+
+/* button to create score card and share score card */
+#createbutton {
+  width: 95%;
+  font-weight: bold;
+}
+
+/* background for button and scorecard */
+#scorebackground {
+  background-color: rgb(194, 194, 194);
+}
+
+/* buttons to increase and decrease and the number */
+#buttonsandnumbers {
+  font-size: 28px;
+}
+
+#x {
+  display: flex;
+  padding-left: 55px;
+}
+
+#y {
+  text-align: left;
+}
